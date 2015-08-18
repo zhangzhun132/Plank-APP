@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+  >
+
+<LinearLayout 
+    android:id="@+id/pop_layout2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentRight="true"
+
+     >
+
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+			 android:id="@+id/cishu"
+        	>
+		          <ImageView
+		              android:layout_width="35dp"
+	              	  android:layout_height="35dp"
+	              	  android:src="@mipmap/ofm_profile_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="每组次数"
+	              	  android:textSize="15dip"
+	              	  android:gravity="center"
+	              	  android:textColor="@color/black"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+				  android:background="@color/black"
+		          />
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:layout_width="35dp"
+	              	  android:layout_height="35dp"
+	              	  android:src="@mipmap/ofm_add_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="每次休息时间"
+	              	  android:textSize="15dip"
+	              	  android:gravity="center"
+	              	  android:textColor="@color/black"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+			android:background="@color/black"
+
+			/>
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:layout_width="35dp"
+	              	  android:layout_height="35dp"
+	              	  android:src="@mipmap/ofm_video_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="每次锻炼时间"
+	              	  android:textSize="15dip"
+	              	  android:gravity="center"
+	              	  android:textColor="@color/black"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+			android:background="@color/black"
+
+			/>
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:layout_width="35dp"
+	              	  android:layout_height="35dp"
+	              	  android:src="@mipmap/ofm_qrcode_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <TextView
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="开发者信息"
+	              	  android:textSize="15dip"
+	              	  android:gravity="center"
+	              	  android:textColor="@color/black"
+		              />
+		      </LinearLayout>
+		<TextView
+		          android:layout_width="fill_parent"
+	              android:layout_height="0.2dp"
+			android:background="@color/black"
+
+			/>
+
+		 <LinearLayout
+	        android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+	    	android:orientation="horizontal"
+	    	android:padding="8dp"
+        	>
+		          <ImageView
+		              android:layout_width="35dp"
+	              	  android:layout_height="35dp"
+	              	  android:src="@mipmap/actionbar_camera_icon"
+	              	  android:scaleType="fitCenter"
+		              />
+		          <Button
+		              android:layout_width="wrap_content"
+	              	  android:layout_height="fill_parent"
+	              	  android:layout_marginLeft="10dp"
+	              	  android:text="给个好评"
+	              	  android:id="@+id/btn_cancel"
+	              	  android:textSize="15dip"
+	              	  android:background="@null"
+	              	  android:gravity="center"
+	              	  android:textColor="@color/black"
+		              />
+		      </LinearLayout>
+</LinearLayout>
+</RelativeLayout>
